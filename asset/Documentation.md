@@ -1,10 +1,10 @@
-
+# white ser
 # Asta Md WhatsApp Bot Simple Document
 ### Simple Document on how The Database Works
 ----------------------------------------------------------------
 ### Simple Document on how The Database Works
 ##### Bot Database with and without MongoDB, PostgreSQL
-<p>Sometimes running Bot With MongoDb or PostgreSQL can can quite a few error well here's a documentation on how it's fixed</p>
+<p>Sometimes running Bot With MongoDb or PostgreSQL can can quite a few error well here's a documentation on how it's fixed
 
 ###### References
  ```
