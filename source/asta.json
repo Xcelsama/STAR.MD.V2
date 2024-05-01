@@ -1,18 +1,18 @@
 {
     "__JSON__": true,
     "AUTHOR": "Xcelsama",
-    "theme": "HARUKI-MD",
+    "theme": "STAR",
     "LANGUAGE": "English",
     "LANGCODE": "en",  
     "STRINGS": { 
         "updater": { 
-            "UPDATE": "Your Spring bot is up to date.",
+            "UPDATE": "Your Star bot is up to date.",
             "UPDATED_LOCAL": "Bot update done successfully"
         },  
         "global": {      
-            "botName": "ʜᴀʀᴜᴋɪ-ᴍᴅ",
+            "botName": "©𝚂𝚃𝙰𝚁-𝙼𝙳",
             "body": "MULTI-FUNCTIONAL WHATSAPP BOT", 
-            "greet2" : "GREETINGS HAPPY SPRING",
+            "greet2" : "`GREETINGS HAPPY SPRING⛱️`",
             "pic1": "https://i.imgur.com/8MXAsm3.jpeg", 
             "pic2": "https://i.imgur.com/HtSUslN.jpeg", 
             "pic3": "https://i.imgur.com/SxDfkWd.jpeg", 
