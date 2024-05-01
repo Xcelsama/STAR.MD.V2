@@ -1,4 +1,4 @@
-# ©𝚂𝚃𝙰𝚁-𝙼𝙳
+# ©ՏTᗩᖇ-ᗰᗪ
 
 # Contributor Covenant Code of Conduct
 
