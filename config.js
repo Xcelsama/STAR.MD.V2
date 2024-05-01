@@ -1,4 +1,4 @@
-//#ENJOY
+//THANKS TO ASTRO SIR
 const fs = require("fs-extra");
 if (fs.existsSync(".env"))
   require("dotenv").config({ path: __dirname + "/.env" });
@@ -13,13 +13,13 @@ global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
-global.github = process.env.GITHUB || "https://github.com/Astropeda/Asta-Md";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaPGt3QEwEjpBXT4Rv0z";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaPGt3QEwEjpBXT4Rv0z";
+global.github = process.env.GITHUB || "https://github.com/Xcelsama/STAR-MD";
+global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X";
+global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/P37NWrz.jpeg";
-global.devs = "2348039607375";
-global.sudo = process.env.SUDO || "2348039607375";
-global.owner = process.env.OWNER_NUMBER || "2348039607375";
+global.devs = "2347045035241";
+global.sudo = process.env.SUDO || "2347045035241";
+global.owner = process.env.OWNER_NUMBER || "2347045035241";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -38,21 +38,21 @@ global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
 
 global.api_smd = "https://api-smd-1.vercel.app";
-global.scan = "https://secret-garden-43998-4daad95d4561.herokuapp.com/";
+global.scan = "https://star-md-v-2-f45686da0ee2.herokuapp.com";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
   ""
 module.exports = {
   menu: process.env.MENU || "",
-  HANDLERS: process.env.PREFIX || "/",
+  HANDLERS: process.env.PREFIX || "*",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "©ᴀsᴛᴀ ᴍᴅ",
-  author: process.env.PACK_AUTHER || "ᴀsᴛᴀ ᴍᴅ",
-  packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "ᴀsᴛᴀ ᴍᴅ",
-  ownername: process.env.OWNER_NAME || "ᴀsᴛᴀ",
+  caption: process.env.CAPTION || "`𝚂𝚃𝙰𝚁-𝙼𝙳-𝚅𝟸`",
+  author: process.env.PACK_AUTHER || "𝙴𝚇𝙲𝙴𝙻",
+  packname: process.env.PACK_NAME || "𝚂𝚃𝙰𝚁-𝙼𝙳",
+  botname: process.env.BOT_NAME || "丂ㄒ卂尺",
+  ownername: process.env.OWNER_NAME || "𝙴𝚇𝙲𝙴𝙻",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
@@ -64,7 +64,7 @@ module.exports = {
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
-  LANG: (process.env.THEME || "ASTA").toUpperCase(),
+  LANG: (process.env.THEME || "BAT").toUpperCase(),
 };
 global.rank = "updated";
 global.isMongodb = false;
