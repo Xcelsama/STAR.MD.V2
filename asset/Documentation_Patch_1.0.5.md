@@ -1,4 +1,4 @@
-# PATCH ᴀsᴛᴀ ᴍᴅ ᴜᴘᴅᴀᴛᴇ 𝟷.𝟶.𝟻 ᴘᴀᴛᴄʜ
+# PATCH 
 ### ᴡʜᴀᴛ's ɴᴇᴡ?
 -----------------------------------
 1. *Session ID Not Connecting Error Fixed*
@@ -11,7 +11,7 @@
 ## Details
 
 #### Session Id Not Connecting Fixed.
-<p>We have fixed error with session id not connecting to whatsapp especially if the user has not used Asta Md before, this error occurs when the WhatsApp Account has never be connected to the baielys libary, one of the ways you could manually fix your session id is by running Asta Md on VPS and connect through the QR CODE Genrate in the terminal. We have Fixed this error so that you do not have to worry about your session id not working for your WhatsApp Account, the major cause of this problem, is the WhiskeySockets Balieys, This Problem is expected to be solved later in the future.</p>
+<p>We have fixed error with session id not connecting to whatsapp especially if the user has not used Star-md before, this error occurs when the WhatsApp Account has never be connected to the baielys libary, one of the ways you could manually fix your session id is by running Star-md on VPS and connect through the QR CODE Genrate in the terminal. We have Fixed this error so that you do not have to worry about your session id not working for your WhatsApp Account, the major cause of this problem, is the WhiskeySockets Balieys, This Problem is expected to be solved later in the future.</p>
 ------------
 
 
