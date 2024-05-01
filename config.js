@@ -6,14 +6,14 @@ global.audio = "";
 global.video = "";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "astromedia0010@gmail.com";
+global.email = "ms.excel.amadi@gmail.com";
 global.location = "Lahore,Pakistan.";
 global.mongodb = process.env.MONGODB_URI || "";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
-global.github = process.env.GITHUB || "https://github.com/Xcelsama/STAR-MD";
+global.github = process.env.GITHUB || "https://github.com/Xcelsama/STAR-MD-V2";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/P37NWrz.jpeg";
@@ -62,9 +62,9 @@ module.exports = {
   antilink_values: process.env.ANTILINK_VALUES || "all",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
-  ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
+  ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "https://api.elevenlabs.io/v1/text-to-speech",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
-  LANG: (process.env.THEME || "BAT").toUpperCase(),
+  LANG: (process.env.THEME || "STAR").toUpperCase(),
 };
 global.rank = "updated";
 global.isMongodb = false;
