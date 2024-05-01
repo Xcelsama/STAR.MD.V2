@@ -102,12 +102,12 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "𝙴𝚡𝚌𝚎𝚕|𝚂𝚃𝙰𝚁-𝙼𝙳",
+      "value": "|𝚂𝚃𝙰𝚁-𝙼𝙳|",
       "required": false
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "",
+      "value": "|𝙴𝚇𝙲𝙴𝙻|",
       "required": false
     }
   },
