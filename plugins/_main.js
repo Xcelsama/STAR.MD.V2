@@ -123,10 +123,10 @@ async function aiResponce(_0x109acf, _0xf00650, _0x2728a0 = "") {
 }
 ;
 smd({
-  pattern: "chat",
+  pattern: "hi",
   desc: "chat with an AI",
   category: "ai",
-  use: "<Hii, Astropeda>",
+  use: "<Hii, Excel>",
   filename: __filename
 }, async (_0x1c0160, _0x482db1) => {
   try {
@@ -139,14 +139,14 @@ smd({
   pattern: "gpt",
   desc: "chat with an AI",
   category: "ai",
-  use: "<Hii, Astropeda>",
+  use: "<Hii, Excel>",
   filename: __filename
 }, async (_0x5cb388, _0x302ad5) => {
   try {
     try {
       let _0x557719 = _0x302ad5 ? _0x302ad5 : bot.reply_text;
       if (!_0x557719) {
-        return man.reply("Provide me a query ex Who is Suhail");
+        return man.reply("Provide me a query e.g Who is Xcelsama");
       }
       const _0x50c8d3 = await fetch("https://aemt.me/openai?text=" + _0x557719);
       const _0x14c9d6 = await _0x50c8d3.json();
@@ -166,7 +166,7 @@ smd({
   }
 });
 smd({
-  pattern: "fgpt",
+  pattern: "gpt",
   desc: "chat with an AI",
   category: "ai",
   use: "<query>",
@@ -175,7 +175,7 @@ smd({
   try {
     let _0x1b0897 = _0x3f3887 ? _0x3f3887 : _0x42b3b8.reply_text;
     if (!_0x1b0897) {
-      return _0x42b3b8.reply("Provide me a query ex Who is Suhail");
+      return _0x42b3b8.reply("Provide me a query e.g Who is Xcelsama");
     }
     const _0x4c275e = await fetch("https://aemt.me/openai?text=" + _0x1b0897);
     const _0x4743c3 = await _0x4c275e.json();
@@ -413,7 +413,7 @@ cmd({
 });
 cmd({
   pattern: "upload",
-  alias: ["url2"],
+  alias: ["https"],
   category: "general",
   filename: __filename,
   desc: "image to url.",
@@ -480,7 +480,7 @@ async function getDateTime() {
 }
 smd({
   pattern: "repo",
-  alias: ["git", "sc", "script"],
+  alias: ["git", "sc", "script","star"],
   desc: "Sends info about repo",
   category: "general",
   filename: __filename
@@ -488,8 +488,8 @@ smd({
   try {
     let {
       data: _0x44f98c
-    } = await axios.get("https://api.github.com/repos/Astropeda/Asta-Md");
-    let _0x1c73f9 = ("\nᴀsᴛᴀ ᴍᴅ ᴀ sɪᴍᴘʟᴇ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ, ᴍᴀᴅᴇ ʙʏ ᴀsᴛʀᴏᴘᴇᴅᴀ ᴀɴᴅ ᴅᴇᴘʟᴏʏᴇᴅ ʙʏ *" + Config.ownername + "*.\n\n  *❲❒❳ Stars:* " + (_0x44f98c?.stargazers_count || "120+") + " stars\n  *❲❒❳ Forks:* " + (_0x44f98c?.forks_count || "1000+") + " forks\n  *❲❒❳ Authors:* Astropeda\n  *❲❒❳ Created On:* " + (_0x44f98c?.created_at || "undefined") + "\n  *❲❒❳ Repo:* _https://github.com/Astropeda/Asta-Md_\n  *❲❒❳ Scan:* _" + scan + "_" + (Config.caption ? "\n\n" + Config.caption : "")).trim();
+    } = await axios.get("https://api.github.com/repos/Xcelsama/STAR-MD-V2");
+    let _0x1c73f9 = ("\n𝚂𝚃𝙰𝚁-𝙼𝙳 𝙸𝚂 𝙰 𝙼𝚄𝙻𝚃𝙸-𝙵𝚄𝙽𝙲𝚃𝙸𝙾𝙽𝙰𝙻 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙱𝙾𝚃 𝙱𝚈 𝙴𝚇𝙲𝙴𝙻 𝙳𝙴𝙿𝙻𝙾𝚈𝙴𝙳 𝙱𝚈" + Config.ownername + "*.\n\n  *❲❒❳ Stars:* " + (_0x44f98c?.stargazers_count || "120+") + " stars\n  *❲❍❳ Forks:* " + (_0x44f98c?.forks_count || "1000+") + " forks\n  *❲❍❳ Author:* Xcelsama\n  *❲❒❳ Created On:* " + (_0x44f98c?.created_at || "undefined") + "\n  *❲❍❳ Repo:* _https://github.com/Xcelsama/STAR-MD-V2_\n  *❲❍❳ Scan:* _" + scan + "_" + (Config.caption ? "\n\n" + Config.caption : "")).trim();
     return await _0x45da98.sendUi(_0x45da98.jid, {
       caption: _0x1c73f9
     });
@@ -535,7 +535,7 @@ smd({
     latensie = speed() - timestampe;
     var _0x54755f = performance.now();
     var _0x366cd8 = performance.now();
-    respon = ("*❲❒❳ " + Config.botname + " Server Info ❲❒❳*\n\n  *❲❒❳ Runtime:* " + runtime(process.uptime()) + "\n  *❲❒❳ Speed:* " + latensie.toFixed(3) + "/" + (_0x366cd8 - _0x54755f).toFixed(3) + " ms\n  *❲❒❳ RAM:* " + formatp(os.totalmem() - os.freemem()) + " / " + formatp(os.totalmem()) + "\n\n  *❲❒❳ Memory Usage:*\n      " + Object.keys(_0x78d515).map((_0x4a444a, _0xf623b7, _0x26f7ee) => _0x4a444a.padEnd(Math.max(..._0x26f7ee.map(_0x470f51 => _0x470f51.length)), " ") + ": " + formatp(_0x78d515[_0x4a444a])).join("\n      ") + "\n\n" + (_0x14b376[0] ? "  *❲❒❳ Total CPU Usage:*\n  *" + _0x14b376[0].model.trim() + " (" + _0x52bb92.speed + " MHZ)*\n      " + Object.keys(_0x52bb92.times).map(_0x1a945a => "-" + (_0x1a945a + "").padEnd(6) + ": " + (_0x52bb92.times[_0x1a945a] * 100 / _0x52bb92.total).toFixed(2) + "%").join("\n      ") + "\n\n  *❲❒❳ CPU Core Usage (" + _0x14b376.length + " Core CPU)*\n  " + _0x14b376.map((_0x1ada4d, _0x5999d4) => "*Core " + (_0x5999d4 + 1) + ": " + _0x1ada4d.model.trim() + " (" + _0x1ada4d.speed + " MHZ)*\n      " + Object.keys(_0x1ada4d.times).map(_0x2cc08d => "-" + (_0x2cc08d + "").padEnd(6) + ": " + (_0x1ada4d.times[_0x2cc08d] * 100 / _0x1ada4d.total).toFixed(2) + "%").join("\n      ")).join("\n\n") : "") + "\n").trim();
+    respon = ("*❲❍❳ " + Config.botname + " Server Info ❲❍❳*\n\n  *❲❍❳ Runtime:* " + runtime(process.uptime()) + "\n  *❲❍❳ Speed:* " + latensie.toFixed(3) + "/" + (_0x366cd8 - _0x54755f).toFixed(3) + " ms\n  *❲❍❳ RAM:* " + formatp(os.totalmem() - os.freemem()) + " / " + formatp(os.totalmem()) + "\n\n  *❲❍❳ Memory Usage:*\n      " + Object.keys(_0x78d515).map((_0x4a444a, _0xf623b7, _0x26f7ee) => _0x4a444a.padEnd(Math.max(..._0x26f7ee.map(_0x470f51 => _0x470f51.length)), " ") + ": " + formatp(_0x78d515[_0x4a444a])).join("\n      ") + "\n\n" + (_0x14b376[0] ? "  *❲❍❳ Total CPU Usage:*\n  *" + _0x14b376[0].model.trim() + " (" + _0x52bb92.speed + " MHZ)*\n      " + Object.keys(_0x52bb92.times).map(_0x1a945a => "-" + (_0x1a945a + "").padEnd(6) + ": " + (_0x52bb92.times[_0x1a945a] * 100 / _0x52bb92.total).toFixed(2) + "%").join("\n      ") + "\n\n  *❲❒❳ CPU Core Usage (" + _0x14b376.length + " Core CPU)*\n  " + _0x14b376.map((_0x1ada4d, _0x5999d4) => "*Core " + (_0x5999d4 + 1) + ": " + _0x1ada4d.model.trim() + " (" + _0x1ada4d.speed + " MHZ)*\n      " + Object.keys(_0x1ada4d.times).map(_0x2cc08d => "-" + (_0x2cc08d + "").padEnd(6) + ": " + (_0x1ada4d.times[_0x2cc08d] * 100 / _0x1ada4d.total).toFixed(2) + "%").join("\n      ")).join("\n\n") : "") + "\n").trim();
     return await _0x51c639.send(respon, {}, "", _0x51c639);
   } catch (_0x102a1d) {
     await _0x51c639.error(_0x102a1d + "\n\ncommand: cpu", _0x102a1d, "*_No responce from Server side, Sorry!!_*");
@@ -546,14 +546,14 @@ smd({
   alias: ["advertisement"],
   category: "ai",
   desc: "Advertise of your Message, by sending it to provided nmbr range.",
-  use: "234902786xx,Your_text_here",
+  use: "23470450352xx,Your_text_here",
   fromMe: true,
   filename: __filename
 }, async (_0x165087, _0x13462a) => {
   try {
     let _0x14810d = _0x13462a ? _0x13462a : _0x165087.reply_text;
     if (!_0x14810d) {
-      return await _0x165087.reply("*Advertise of your Message*\n*by sending it to provided nmbr range.*\n" + prefix + "advt 234902786xx,Your_text_here");
+      return await _0x165087.reply("*Advertise of your Message*\n*by sending it to provided nmbr range.*\n" + prefix + "advt 23470450352xx,Your_text_here");
     }
     const _0x94ba67 = _0x14810d.indexOf(",");
     if (_0x94ba67 === -1) {
@@ -562,7 +562,7 @@ smd({
     let _0xd9b857 = "" + _0x14810d.slice(0, _0x94ba67).trim();
     let _0x321dea = _0x14810d.slice(_0x94ba67 + 1).trim() + "\n\n\n" + Config.caption;
     if (!_0xd9b857.includes("x")) {
-      return _0x165087.send("*You did not add x in number.*\n*Ex: " + prefix + "advt 234902786xx,Your_Message_here*  \n " + Config.caption);
+      return _0x165087.send("*You did not add x in number.*\n*Ex: " + prefix + "advt 23470450352xx,Your_Message_here*  \n " + Config.caption);
     }
     await _0x165087.send("*Sending message to given number range.!*\n*It may take some time, so wait please*");
     function _0x4affa2(_0x9f9b09, _0x557f5a) {
@@ -618,11 +618,11 @@ class AnonymousMsg {
   }
 }
 smd({
-  pattern: "anonymsg",
-  alias: ["recognition", "anonychat"],
+  pattern: "kuboolmsg",
+  alias: ["recognition", "anonymsg"],
   desc: "Send message Annonymously",
   category: "ai",
-  use: "<Hii, Astropeda>",
+  use: "<Hii, Excel>",
   filename: __filename
 }, async (_0x358984, _0x20693a, {
   smd: _0x12d243
@@ -630,10 +630,10 @@ smd({
   try {
     let _0x32512b = _0x20693a ? _0x20693a : _0x358984.reply_text;
     if (!_0x32512b) {
-      return await _0x358984.send("*provide number with msg to send Anonymously.* \n*Example " + (prefix + _0x12d243) + " 2348039607375,your_Message*", {}, "", _0x358984);
+      return await _0x358984.send("*provide number with msg to send Anonymously.* \n*Example " + (prefix + _0x12d243) + " 2347045035241,your_Message*", {}, "", _0x358984);
     }
     if (_0x358984.isCreator && _0x32512b === "info") {
-      return await _0x358984.reply(isAnnonyMsgAlive == "" ? "*Theres no Anonymous Chat created yet*" : "*Anonymous Chat Recivers*\n_" + isAnnonyMsgAlive + "_");
+      return await _0x358984.reply(isAnnonyMsgAlive == "" ? "*Theres no Kubool Chat created yet*" : "*Kubool Chat Recivers*\n_" + isAnnonyMsgAlive + "_");
     }
     const _0x201d91 = _0x32512b.indexOf(",");
     if (_0x201d91 === -1) {
@@ -655,12 +655,12 @@ smd({
       _0x3079e2.reciever = _0x48975a[0];
       _0x3079e2.msgStatus = true;
       _0x3079e2.senderMsg = _0x358984;
-      _0x5f656f = "*ᴀsᴛᴀ-ᴍᴅ • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ*\n\n*Msg_Id:* " + _0x3079e2.id + "\n*Date:* _" + _0xbcd286 + "_\n*Time:* _" + _0x47ad13 + "_\n\n*Message:* " + _0x5f656f + "\n\n\n" + Config.caption;
+      _0x5f656f = "*𝚂𝚃𝙰𝚁-𝙼𝙳 • 𝙺𝚄𝙱𝙾𝙾𝙻 𝙼𝚂𝙶*\n\n*Msg_Id:* " + _0x3079e2.id + "\n*Date:* _" + _0xbcd286 + "_\n*Time:* _" + _0x47ad13 + "_\n\n*Message:* " + _0x5f656f + "\n\n\n" + Config.caption;
       isAnnonyMsgAlive = isAnnonyMsgAlive + "," + _0x3079e2.reciever;
       await _0x358984.bot.sendMessage(_0x3079e2.reciever, {
         text: _0x5f656f
       });
-      return await _0x358984.reply("*_Anonymous message sent succesfully_*");
+      return await _0x358984.reply("*_Kubool message sent succesfully_*");
     } else {
       return await _0x358984.reply("*_Provided number is not valid!!!_*");
     }
@@ -677,7 +677,7 @@ smd({
       if (_0x2dfb59.length < 3) {
         return;
       }
-      if (_0x2acf30.reply_text.includes("ᴀsᴛᴀ-ᴍᴅ • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") && _0x2dfb59[0].includes("ᴀsᴛᴀ-ᴍᴅ • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") && _0x2dfb59[2].includes("Msg_Id")) {
+      if (_0x2acf30.reply_text.includes("𝙺𝚄𝙱𝙾𝙾𝙻 && _0x2dfb59[0].includes(" • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") && _0x2dfb59[2].includes("Msg_Id")) {
         let _0x1b0d01 = "" + _0x2dfb59[2].replace("*Msg_Id:* ", "").trim();
         let _0x2ecd2a = astro_patch_AnonyMsg[_0x1b0d01];
         if (!_0x2ecd2a) {
