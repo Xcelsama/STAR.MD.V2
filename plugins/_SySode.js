@@ -10,7 +10,7 @@ let s_ser = true;
 smd(
    {
      cmdname: "shutdown",
-     info: "To restart bot",
+     info: "To Put Off Bot",
      type: "tools",
      fromMe: s_ser,
      filename: __filename,
