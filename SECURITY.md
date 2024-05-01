@@ -4,7 +4,7 @@
 
 Please Use Node Version Higher to Get The Best Performance.
 
-|📡Version| Supported          |
+|📡Version| [✅or❌]Supported          |
 | ------- | ------------------ |
 | 14.x    | :x: |
 | 16.x    | ❗                 |
