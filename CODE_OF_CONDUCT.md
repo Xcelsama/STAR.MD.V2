@@ -1,4 +1,4 @@
-# ©ՏTᗩᖇ-ᗰᗪ
+# ©ՏͲᎪᎡ-ᎷᎠ
 
 # Contributor Covenant Code of Conduct
 
