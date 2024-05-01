@@ -1,15 +1,15 @@
 {
-  "name": "asta-md@2.5.0",
-  "description": "Simple WhatsApp Bot",
-  "logo": "https://github.com/Astropeda/Asta-Md/blob/main/lib/assets/logo.png?raw=true",
-  "keywords": ["Asta-Md", "asta", "Asta-Bot"],
+  "name": "STAR-MD-V2",
+  "description": "Multifunctional WhatsApp Bot",
+  "logo": "https://i.imgur.com/34rJ6i0.jpeg",
+  "keywords": ["STAR-MD"],
   "success_url": "/",
   "stack": "container",
 
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",
-      "value": "Astro",
+      "value": "𝙴𝚇𝙲𝙴𝙻",
       "required": true
     },
 
@@ -27,7 +27,7 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required": false,
-      "value": "ᴀsᴛᴀ-ᴍᴅ"
+      "value": "𝚂𝚃𝙰𝚁-𝙼𝙳"
     },
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
@@ -51,7 +51,7 @@
     },
     "HEROKU_API_KEY": {
       "description": "Put Your Heroku Api Key Here",
-      "value": "",
+      "value": "8cf895b5-dbdf-4d5d-b2a1-b31319db8aa6",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -86,11 +86,11 @@
     },
     "PREFIX": {
       "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
-      "value": "."
+      "value": "*"
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "2348039607375"
+      "value": "2347045035241"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
@@ -102,7 +102,7 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "Asta Md",
+      "value": "𝙴𝚡𝚌𝚎𝚕|𝚂𝚃𝙰𝚁-𝙼𝙳",
       "required": false
     },
     "PACK_AUTHER": {
