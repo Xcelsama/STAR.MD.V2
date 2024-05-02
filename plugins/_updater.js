@@ -37,7 +37,7 @@ try {
       desc: "Shows repo's refreshed commits.",
       category: "tools",
       fromMe: true,
-      react: "🍂",
+      react: "📡",
       filename: __filename,
       use: process.env.HEROKU_API_KEY ? "[ start ]" : "",
     },
@@ -46,12 +46,12 @@ try {
         let commits = await DB.syncgit();
         if (commits.total === 0)
           return await citel.reply(
-            `*ASTA-MD MD IS RUNNING ON LATEST\nPATCHES\nFIXES\UPGRADES*`
+            `*STAR-MD MD IS RUNNING ON LATEST\nUPGRADES✔️*`
           );
         let update = await DB.sync();
         await citel.bot.sendMessage(
           citel.chat,
-          { text: update.replace(/SuhailTechIMd/, "Astropeda") },
+          { text: update.replace(/SuhailTechIMd/, "Xcelsama") },
           { quoted: citel }
         );
         if (
@@ -92,7 +92,7 @@ try {
         await require("simple-git")().pull();
         await citel.reply(
           process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY
-            ? "*`BOT UPDATED`*\n*RESTART YOUR BOT FOR UPDATE TO TAKE EFFECT*"
+            ? "*`STAR-BOT UPDATED`*\n*RESTART YOUR BOT FOR UPDATE TO TAKE EFFECT*"
             : "```*Successfully updated. Now You Have Latest Version Installed!*"
         );
       } catch (e) {
