@@ -550,10 +550,10 @@ smd(
          emailContent: _0x587f7f
        });
        if (_0x587f7f) {
-         const _0xa4d211 = "\n  *From* ➪ " + _0x2b6dd0.from + "\n  *Date* ➪  " + _0x2b6dd0.date + "\n  *EMAIL ID* ➪  [" + _0x2b6dd0.id + "]\n  *Subject* ➪  " + _0x2b6dd0.subject + "\n  *Content* ➪  " + _0x587f7f;
+         const _0xa4d211 = "\n  *✔️From* ➪ " + _0x2b6dd0.from + "\n  *📆Date* ➪  " + _0x2b6dd0.date + "\n  *📧EMAIL ID* ➪  [" + _0x2b6dd0.id + "]\n  *📮Subject* ➪  " + _0x2b6dd0.subject + "\n  *🗒Content* ➪  " + _0x587f7f;
          await _0x39080b.reply(_0xa4d211, {
            contextInfo: {
-             ...(await _0x39080b.bot.contextInfo("*EMAIL ➪ " + _0x2b6dd0.id + "*", _0x39080b.senderName, _0x392c45))
+             ...(await _0x39080b.bot.contextInfo("*📧EMAIL ➪ " + _0x2b6dd0.id + "*", _0x39080b.senderName, _0x392c45))
            }
          }, "smd", _0x39080b);
          ;
