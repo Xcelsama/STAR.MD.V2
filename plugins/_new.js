@@ -20,7 +20,7 @@ let {
     filename: __filename,
   },
   async (message) => {
-    const channelMessage = `𝐒𝐓𝐀𝐑-𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓\n\n _ʜᴇʏ ʜᴇʀᴇ's ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ, ᴘʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs ᴛᴏ ᴋᴇᴇᴘ ᴛʜɪs ᴘʀᴏᴊᴇᴄᴛ ᴀʟɪᴠᴇ_\n *ʟɪɴᴋ:* https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X\n\n ${Config.botname} *WORKS*`;
+    const channelMessage = `𝐒𝐓𝐀𝐑-𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓\n\n _ʜᴇʏ ʜᴇʀᴇ's ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ, ᴘʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs ᴛᴏ ᴋᴇᴇᴘ ᴛʜɪs ᴘʀᴏᴊᴇᴄᴛ ᴀʟɪᴠᴇ_\n *ʟɪɴᴋ:* https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X\n\n ${Config.botname} `Developers are always ready to help`;
 
     const contextInfo = {
       forwardingScore: 999,
@@ -39,7 +39,7 @@ smd(
     filename: __filename,
   },
   async (message) => {
-    const SupportMsg = `𝐒𝐓𝐀𝐑 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 \n\n *ʟɪɴᴋ:* https://chat.whatsapp.com/GzKCborGlGN41XSHtslLri\n\n ${Config.botname} *WORKS*`;
+    const SupportMsg = `𝐒𝐓𝐀𝐑 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 \n\n *ʟɪɴᴋ:* https://chat.whatsapp.com/Lg0lY4M1k8oDMYzylg86xs\n\n ${Config.botname} `Developers are always ready to help..`;
 
     const contextInfo = {
       forwardingScore: 999,
@@ -150,11 +150,11 @@ smd(
    filename: __filename
  }, async _0x17bb63 => {
    try {
-     let _0x12a593 = "*BOT CURRENTLY ACTIVE!*";
+     let _0x12a593 = "`🕑BOT CURRENTLY ACTIVE!`";
      await _0x17bb63.reply(_0x12a593, {
        contextInfo: {
          externalAdReply: {
-           title: "ACTIVE",
+           title: "乇乂匚乇ㄥ",
            sourceUrl: gurl,
            showAdAttribution: true,
            thumbnail: await smdBuffer(await _0x17bb63.getpp())
@@ -265,7 +265,7 @@ smd(
      try {
        let {
          key: _0x2d7cf6
-       } = await _0x4e7c63.send("Counting... 0", {}, "asta", _0x4e7c63);
+       } = await _0x4e7c63.send("Counting... 0", {}, "star", _0x4e7c63);
        for (let _0x16a10f = 0; _0x16a10f <= _0x4cf8ed; _0x16a10f++) {
          if (_0x16a10f % 15 === 0) {
            await _0x4e7c63.send("Counting... " + _0x16a10f, {
@@ -281,7 +281,7 @@ smd(
          edit: _0x2d7cf6
        }, "asta", _0x4e7c63);
      } catch (_0x28ce7e) {}
-     let _0x50f17a = " *乂 𝒜𝒮𝒯𝒜 ℳ𝒟 - ＢＯＴ ＦＥＡＴＵＲＥ*\n\n\n  ◦ _Total Features ➪ " + _0x4cf8ed + "_\n  \n*◦ LIST DOWN THE FEATURES*\n\n      _Commands ➪ " + Object.values(_0x4de967.commands).filter(_0x54d4bf => _0x54d4bf.pattern).length + "_\n      _Msg Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x2376a3 => _0x2376a3.on).length + "_\n      _Call Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x54a19b => _0x54a19b.call).length + "_\n      _Group Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x35381c => _0x35381c.group).length + "_\n  \n\n" + Config.caption;
+     let _0x50f17a = " *乂 𝚂𝚃𝙰𝚁-𝙼𝙳 - ＢＯＴ ＦＥＡＴＵＲＥ*\n\n\n  ◦ _Total Features ➪ " + _0x4cf8ed + "_\n  \n*◦ LIST DOWN THE FEATURES*\n\n      _Commands ➪ " + Object.values(_0x4de967.commands).filter(_0x54d4bf => _0x54d4bf.pattern).length + "_\n      _Msg Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x2376a3 => _0x2376a3.on).length + "_\n      _Call Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x54a19b => _0x54a19b.call).length + "_\n      _Group Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x35381c => _0x35381c.group).length + "_\n  \n\n" + Config.caption;
      await _0x4e7c63.bot.relayMessage(_0x4e7c63.chat, {
        requestPaymentMessage: {
          currencyCodeIso4217: "NG",
@@ -404,7 +404,7 @@ smd(
      let _0x3db049 = speed() - _0xce26d;
      neww = performance.now();
      oldd = performance.now();
-     respon = ("\nResponse Speed " + _0x3db049.toFixed(4) + " _Second_ \n " + (oldd - neww) + " _miliseconds_\n\nRuntime : " + runtime(process.uptime()) + "\n\n💻 Info Server\nRAM: " + formatp(os.totalmem() - os.freemem()) + " / " + formatp(os.totalmem()) + "\n\n_NodeJS Memory Usaage_\n" + Object.keys(_0x37ca41).map((_0x19d575, _0x3942d9, _0x3fa08c) => _0x19d575.padEnd(Math.max(..._0x3fa08c.map(_0x6548cb => _0x6548cb.length)), " ") + ": " + formatp(_0x37ca41[_0x19d575])).join("\n") + "\n\n" + (_0x4a72de[0] ? "_Total CPU Usage_\n" + _0x4a72de[0].model.trim() + " (" + _0x410388.speed + " MHZ)\n" + Object.keys(_0x410388.times).map(_0xffc60c => "- *" + (_0xffc60c + "*").padEnd(6) + ": " + (_0x410388.times[_0xffc60c] * 100 / _0x410388.total).toFixed(2) + "%").join("\n") + " " : "") + "\n\n ").trim();
+     respon = ("\nResponse Speed " + _0x3db049.toFixed(4) + " _Second_ \n " + (oldd - neww) + " _miliseconds_\n\nRuntime : " + runtime(process.uptime()) + "\n\n📡 Info Server\nRAM: " + formatp(os.totalmem() - os.freemem()) + " / " + formatp(os.totalmem()) + "\n\n_NodeJS Memory Usaage_\n" + Object.keys(_0x37ca41).map((_0x19d575, _0x3942d9, _0x3fa08c) => _0x19d575.padEnd(Math.max(..._0x3fa08c.map(_0x6548cb => _0x6548cb.length)), " ") + ": " + formatp(_0x37ca41[_0x19d575])).join("\n") + "\n\n" + (_0x4a72de[0] ? "_Total CPU Usage_\n" + _0x4a72de[0].model.trim() + " (" + _0x410388.speed + " MHZ)\n" + Object.keys(_0x410388.times).map(_0xffc60c => "- *" + (_0xffc60c + "*").padEnd(6) + ": " + (_0x410388.times[_0xffc60c] * 100 / _0x410388.total).toFixed(2) + "%").join("\n") + " " : "") + "\n\n ").trim();
      _0xdfc3ca.reply(respon);
    } catch (_0x13d03e) {
      await _0xdfc3ca.error(_0x13d03e + "\n\ncommand : ping2", _0x13d03e, false);
@@ -414,7 +414,7 @@ smd(
    cmdname: "myip",
    alias: ["ip"],
    type: "misc",
-   info: "get randome poetry lines"
+   info: "𝚐𝚎𝚝 𝚢𝚘𝚞𝚛 𝚕𝚘𝚌𝚊𝚝𝚒𝚘𝚗"
  }, async _0x446c27 => {
    try {
      let {
@@ -470,12 +470,12 @@ smd(
  smd({
    cmdname: "ss",
    type: "misc",
-   info: "get randome poetry lines"
- }, async (_0x4cdec8, _0x41dfb5) => {
+   info: "Get website screen shot" 
+}, async (_0x4cdec8, _0x41dfb5) => {
    try {
      let _0x587b99 = _0x41dfb5.split(" ")[0].trim();
      if (!_0x587b99) {
-       return await _0x4cdec8.reply("*Need URL! Use " + prefix + "ss https://github.com/Astropeda/Asta-Md*");
+       return await _0x4cdec8.reply("*Need URL! Use " + prefix + "ss https://github.com/Xcelsama/STAR-MD-V2*");
      }
      let _0x358290 = await ssweb(_0x587b99);
      if (_0x358290 && _0x358290.status == "200") {
