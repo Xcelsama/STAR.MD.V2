@@ -728,7 +728,7 @@ smd({
   pattern: "aitts",
   desc: "Text to Voice Using Eleven Lab Ai",
   category: "ai",
-  use: "<Hii, Astropeda>",
+  use: "<Hii, Excel>",
   filename: __filename
 }, async (_0x1a01af, _0x1ac85a) => {
   await aitts(_0x1a01af, _0x1ac85a || _0x1a01af.reply_text);
