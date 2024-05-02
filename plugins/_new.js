@@ -489,7 +489,7 @@ smd(
      await _0x4cdec8.error(_0x126b07 + "\n\ncommand : myip", _0x126b07, "*Request Denied!*");
    }
  });
- let tmpUrl = "https://telegra.ph/file/b8e96b599e0fa54d25940.jpg";
+ let tmpUrl = "https://telegra.ph/file/16ba469b28b2f7d38f4b2.jpg";
  const secmailData = {};
  smd({
    pattern: "tempmail",
